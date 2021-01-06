@@ -1,7 +1,7 @@
 <div>
   <h1 [class]="mySheet.classes.title">Angular JSS example</h1>
   <input [class]="mySheet.classes.area" type="textarea">
-  <button (click)="changeColor('red')">Change to Red</button>
-  <button (click)="changeColor('blue')">Change to Blue</button>
-  <button (click)="changeColor('green')">Change to Green</button>
+  <button ejs-button cssClass="e-outline" [isPrimary]="true" (click)="changeColor('red')">Red</button>
+  <button ejs-button cssClass="e-outline" [isPrimary]="true" (click)="changeColor('blue')">Blue</button>
+  <button ejs-button cssClass="e-outline" [isPrimary]="true" (click)="changeColor('green')">Green</button>
 </div>

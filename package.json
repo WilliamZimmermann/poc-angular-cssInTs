@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~11.0.5",
     "@angular/platform-browser-dynamic": "~11.0.5",
     "@angular/router": "~11.0.5",
+    "@syncfusion/ej2-angular-buttons": "^18.4.33",
     "jss": "^10.5.0",
     "jss-preset-default": "^10.5.0",
     "rxjs": "~6.6.0",
